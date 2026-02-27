@@ -6,41 +6,43 @@
 <title>Ofertas Gamer</title>
 
 <style>
-body {
-    background-color: #111;
-    font-family: Arial, sans-serif;
-    color: white;
-    text-align: center;
-    padding: 20px;
+body{
+    background:#111;
+    font-family:Arial;
+    color:white;
+    text-align:center;
+    padding:20px;
 }
 
-.card {
-    background-color: #1c1c1c;
-    border-radius: 15px;
-    padding: 20px;
-    max-width: 350px;
-    margin: auto;
-    box-shadow: 0 0 15px #00ff88;
+.container{
+    display:flex;
+    flex-direction:column;
+    gap:30px;
+    align-items:center;
 }
 
-.card img {
-    width: 100%;
-    border-radius: 10px;
+.card{
+    background:#1c1c1c;
+    border-radius:15px;
+    padding:20px;
+    max-width:350px;
+    box-shadow:0 0 15px #00ff88;
 }
 
-.botao {
-    display: inline-block;
-    margin-top: 15px;
-    padding: 12px 20px;
-    background-color: #00ff88;
-    color: black;
-    text-decoration: none;
-    font-weight: bold;
-    border-radius: 8px;
+.card img{
+    width:100%;
+    border-radius:10px;
 }
 
-.botao:hover {
-    background-color: #00cc6a;
+.botao{
+    display:inline-block;
+    margin-top:15px;
+    padding:12px 20px;
+    background:#00ff88;
+    color:black;
+    text-decoration:none;
+    font-weight:bold;
+    border-radius:8px;
 }
 </style>
 </head>
@@ -49,13 +51,26 @@ body {
 
 <h1>🔥 Ofertas Gamer 🔥</h1>
 
+<div class="container">
+
+<!-- QUADRO DECORATIVO -->
 <div class="card">
-    <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8">
-    <h2>Quadro Decorativo Gamer</h2>
-    <p>Deixe seu setup insano com esse quadro incrível.</p>
-    <a class="botao" href="https://s.shopee.com.br/3B2HBie5ZS" target="_blank">
-        Comprar Agora
-    </a>
+<img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e">
+<h2>🖼️ Quadro Decorativo Gamer</h2>
+<a class="botao" href="https://s.shopee.com.br/9fFkzP0kp4" target="_blank">
+Comprar Agora
+</a>
+</div>
+
+<!-- TECLADO GAMER -->
+<div class="card">
+<img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8">
+<h2>⌨️ Teclado Gamer RGB</h2>
+<a class="botao" href="https://s.shopee.com.br/AKVRmW0uG8" target="_blank">
+Comprar Agora
+</a>
+</div>
+
 </div>
 
 </body>
