@@ -3,73 +3,105 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Ofertas Gamer</title>
+<title>Achados Gamer</title>
 
 <style>
+
 body{
-    background:#111;
-    font-family:Arial;
+    background:#0d0d0d;
+    font-family:Arial, sans-serif;
     color:white;
     text-align:center;
-    padding:20px;
+    margin:0;
 }
 
-.container{
-    display:flex;
-    flex-direction:column;
-    gap:30px;
-    align-items:center;
+/* Header */
+header{
+    padding:25px;
+    font-size:26px;
+    font-weight:bold;
+    background:linear-gradient(45deg,#00ff88,#0066ff);
 }
 
+/* Card */
 .card{
-    background:#1c1c1c;
-    border-radius:15px;
+    background:#1a1a1a;
+    max-width:360px;
+    margin:30px auto;
     padding:20px;
-    max-width:350px;
-    box-shadow:0 0 15px #00ff88;
+    border-radius:20px;
+    box-shadow:0 0 20px rgba(0,255,136,0.3);
 }
 
+/* Imagem */
 .card img{
     width:100%;
-    border-radius:10px;
+    border-radius:15px;
 }
 
+/* Botão */
 .botao{
-    display:inline-block;
-    margin-top:15px;
-    padding:12px 20px;
+    display:block;
+    margin-top:18px;
+    padding:14px;
     background:#00ff88;
     color:black;
-    text-decoration:none;
     font-weight:bold;
-    border-radius:8px;
+    text-decoration:none;
+    border-radius:12px;
+    font-size:18px;
 }
+
+.botao:hover{
+    background:#00cc6a;
+}
+
+.destaque{
+    color:#00ff88;
+    font-weight:bold;
+}
+
 </style>
+
 </head>
 
 <body>
 
-<h1>🔥 Ofertas Gamer 🔥</h1>
+<header>
+🎮 Achados Gamer Baratos
+</header>
 
-<div class="container">
-
-<!-- QUADRO DECORATIVO -->
 <div class="card">
-<img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e">
-<h2>🖼️ Quadro Decorativo Gamer</h2>
-<a class="botao" href="https://s.shopee.com.br/9fFkzP0kp4" target="_blank">
-Comprar Agora
-</a>
-</div>
 
-<!-- TECLADO GAMER -->
-<div class="card">
 <img src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8">
+
 <h2>⌨️ Teclado Gamer RGB</h2>
+
+<p>
+🔥 <span class="destaque">Melhore seu setup agora</span><br>
+Qualidade gamer com iluminação RGB.
+</p>
+
 <a class="botao" href="https://s.shopee.com.br/AKVRmW0uG8" target="_blank">
 Comprar Agora
 </a>
+
 </div>
+
+<div class="card">
+
+<img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e">
+
+<h2>🖼️ Quadro Decorativo Gamer</h2>
+
+<p>
+🔥 <span class="destaque">Deixe seu setup insano</span><br>
+Quadro decorativo gamer premium.
+</p>
+
+<a class="botao" href="https://s.shopee.com.br/9fFkzP0kp4" target="_blank">
+Comprar Agora
+</a>
 
 </div>
 
